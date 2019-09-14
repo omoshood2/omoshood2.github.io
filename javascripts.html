@@ -8,7 +8,32 @@
 	<title>Olaitan's CSC Webpage</title>	
 <style>
 	body {
-		background-color: gray;
+		background-image: url("mybackground.jpg");
+		background-repeat: no-repeat; 
+		background-size: 1500px 2000px;
+	}
+	
+		#mybanner {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+	}
+	
+	h1 {
+	text-align: center;
+	}
+	
+	 h2 {
+	text-align: center;
+	}
+	
+	.button {
+		margin-left: 50px;
+	}
+	
+	#homebutton {
+		margin-left: 185px;
 	}
 	
 	</style>
@@ -16,19 +41,19 @@
 </head>
 
 <body> 
-		<img src="mybanner.jpg">
+		<img id="mybanner" src="mybanner.jpg">
 		
 		<table> 
 			<thead> 
 				<tr>
 					<th>
-					<a href="index.html"> <img src="homebanner.jpg" width="196"> </th>
+					<a href="index.html"> <img src="homebanner.jpg" width="196" id="homebutton"> </th>
 					<th>
-					<a href="javascripts.html"> <img src="javascriptbanner.jpg" width="196">  </th>
+					<a href="javascripts.html"> <img src="javascriptbanner.jpg" width="196" class="button">  </th>
 					<th>
-					<a href="apps.html"> <img src="appsbanner.jpg" width="196">  </th>
+					<a href="apps.html"> <img src="appsbanner.jpg" width="196" class="button">  </th>
 					<th>
-					<a href="about.html"> <img src="aboutbanner.jpg" width="196">  </th>
+					<a href="about.html"> <img src="aboutbanner.jpg" width="196" class="button">  </th>
 				</tr>
 			</thead>
 		</table>
